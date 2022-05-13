@@ -45,6 +45,6 @@ app.use(function (req, res, next) {
 });
 
 let port = 8000;
-app.listen(port, function () {
+app.listen(process.env.PORT || port, function () {
     console.log("Example app listening on port " + port + "!");
 });

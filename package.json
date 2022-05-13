@@ -1,14 +1,27 @@
 {
-  "name": "assignment4",
+  "name": "assignment5",
   "version": "1.0.0",
   "description": "COMP1537Assignment4",
-  "main": "assignment4.js",
+  "main": "assignment5.js",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security"
+  },
+  "engines": {
+    "node": "16.14.0"
   },
   "scripts": {
+    "start": "node assignment5.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Amadeus",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ama-cantabile/FFXIV_Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ama-cantabile/FFXIV_Website/issues"
+  },
+  "homepage": "https://github.com/ama-cantabile/FFXIV_Website#readme"
 }
